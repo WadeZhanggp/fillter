@@ -3,6 +3,7 @@ package fillter;
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.annotation.WebInitParam;
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
@@ -31,7 +32,14 @@ public class MyFilter1 implements Filter {//urlPatterns指定该filter所拦截�
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 
-        System.out.println("MyFilter1 start");
+        HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;
+
+        System.out.println(httpServletRequest.getScheme());//http
+        System.out.println(httpServletRequest.getServerName());//localhost
+        System.out.println(httpServletRequest.getServerPort());//8080
+        //看你请求的内容的路径，直接对存放在web-root目录下的资源文件访问为空。
+        // 创建了新的文件夹并把资源放进去之后对资源文件的访问 其返回值为：/创建的文件夹的名称。
+        System.out.println(httpServletRequest.getContextPath());
 
         filterChain.doFilter(servletRequest, servletResponse);
 
