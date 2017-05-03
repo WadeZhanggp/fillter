@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="annotations-api">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/annotations-api.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/catalina-ant.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/catalina-ha.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/catalina-storeconfig.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/catalina-tribes.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/catalina.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/ecj-4.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/el-api.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/jasper-el.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/jasper.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/jaspic-api.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/jsp-api.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/servlet-api.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/tomcat-api.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/tomcat-coyote.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/tomcat-jdbc.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/tomcat-jni.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/tomcat-util-scan.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/tomcat-util.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/tomcat-websocket.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/源码/tomcat包/lib/websocket-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
